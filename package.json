@@ -1,0 +1,16 @@
+{
+  "name": "auto-web-demowebshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "register": "npx cypress run --browser chrome --spec 'cypress/e2e/page_register.cy.js'",
+    "login": "npx cypress run --browser chrome --spec 'cypress/e2e/page_login.cy.js'",
+    "regression": "npx cypress run --browser chrome --spec 'cypress/e2e/*'"
+  },
+  "author": "amallysa",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0"
+  }
+}

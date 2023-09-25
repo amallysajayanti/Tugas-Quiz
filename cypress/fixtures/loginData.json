@@ -1,0 +1,36 @@
+{
+    "valid": [
+        {
+            "email": "sasa@mail.com",
+            "password": "sasa123"
+        },
+        {
+            "email": "sasa@mail.com",
+            "password": "sasa123"
+        }
+    ],
+    "invalidPasswordOrEmailIncorrect": [
+        {
+            "email": "budi@mail.com",
+            "password": "budi00"
+        },
+        {
+            "email": "budian@mail.com",
+            "password": "budi123"
+        }
+    ],
+    "invalidFormatEmail": [
+        {
+            "email": "budi",
+            "password": "budi00"
+        }
+    ],
+    "invalidEmptyEmailOrPassword": [
+        {
+            "email": null,
+            "password": null
+        }
+    ]
+
+}
+  
